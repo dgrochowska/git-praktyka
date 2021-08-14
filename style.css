@@ -4,16 +4,21 @@ body {
   padding: 40px 0;
 }
 h1 {
-  font-size: 36px;
+  font-size: 45px;
   font-family: Lobster;
+  margin: 70px 0px 20px 10px;
 }
 h2 {
   font-size: 22px;
   font-family: Lobster;
 }
+h3 {
+  margin-top: 5px;
+}
 img {
   width: 150px;
-  height: 220px;
+  height: 210px;
+  border-radius: 30%;
 }
 section,
 header {
@@ -21,4 +26,50 @@ header {
   background-color: white;
   width: 960px;
   margin: 0 auto;
+}
+header {
+  display: flex;
+  algin-items: center;
+  justify-content: space-between;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  margin-bottom: 15px;
+}
+header address img {
+  width: 16px;
+  height: 16px;
+  background-color: cornflowerblue;
+  margin-right: 10px;
+  padding: 8px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+.videoandtravel-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.hobbies {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.hobbies li {
+  width: 50%;
+  display: flex;
+  algin-items: flex-start;
+  margin-bottom: 40px;
+}
+.hobbies div {
+  margin-left: 20px;
+}
+.hobbies p {
+  color: grey;
+  line-height: 1.5;
+}
+p {
+    line height: 1.5;
 }
